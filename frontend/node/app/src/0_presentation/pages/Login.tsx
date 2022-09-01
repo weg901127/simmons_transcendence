@@ -6,7 +6,7 @@ const Home: React.FunctionComponent = () => {
     <Row justify="center">
       <Col style={{ position: 'absolute', left: '50%', top: '50%',
         transform: 'translate(-50%, -50%)'}}>
-      <Button type="primary" size="large" onClick={() => console.log("Log in")}>로그인</Button>
+      <Button type="primary" size="large" onClick={() => window.location.replace("http://3.39.250.209/v0/auth/login")}>로그인</Button>
       </Col>
     </Row>
   </>;
